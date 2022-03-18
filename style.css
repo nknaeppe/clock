@@ -1,0 +1,32 @@
+body{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container-clock{
+    width: 30rem;
+    border: 1rem solid black;
+    height: 30rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+.clock-frame{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translate(.1rem);
+}
+.pointer{
+    position: absolute;
+    width: 50%;
+    height: 1rem;
+    background-color: black;
+    top: 50%;
+}
